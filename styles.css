@@ -1,0 +1,165 @@
+:root {
+    --golden: #D4AF37;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+main {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.top-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+}
+
+.icon-img {
+    width: 50px;
+}
+
+.invitation-title {
+    font-size: 30px;
+    font-family: 'Cookie', cursive;
+    font-weight: lighter;
+}
+
+.mid-container, .bottom-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 10px 0px;
+}
+
+.separator {
+    width: 90%;
+    height: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--golden);
+    margin: 5px 5px;
+}
+
+.sep-bottom {
+    width: 70%;
+}
+
+.diamond {
+    width: 15px;
+    height: 15px;
+    rotate: 45deg;
+    background-color: black;
+    border: solid 2px var(--golden);
+}
+
+.prom-party {
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+    line-height: 40px;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;   
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.prom-party__sub {
+    margin-top: 10px;
+    font-weight: 500;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+.bottom-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 10px 0px;
+}
+
+.date-container {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid var(--golden);
+}
+
+.mid-separator {
+    width: 2px;
+    height: 40px;
+    background-color: var(--golden);
+}
+
+.left-date, .right-date {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.day, .hour-title {
+    font-size: 20px;
+    text-align: center;
+}
+
+.day span {
+    font-size: 17px;
+}
+
+.month, .hour {
+    text-align: center;
+    font-size: 15px;
+    color: var(--golden);
+}
+
+.map-container {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.address {
+ width: 100% ;
+ margin-top: 10px;
+}
+
+.address p {
+    text-align: center;
+}
+
+.countdown {
+    margin-top: 30px;
+    width: 100%;
+}
