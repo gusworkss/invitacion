@@ -57,7 +57,6 @@ main {
 }
 
 .separator {
-    width: 90%;
     height: 2px;
     display: flex;
     justify-content: center;
@@ -81,7 +80,7 @@ main {
 .prom-party {
     font-family: 'Playfair Display', serif;
     font-weight: bolder;
-    line-height: 40px;
+    line-height: 45px;
     font-size: 40px;
     text-align: center;
     text-transform: uppercase;   
@@ -186,13 +185,17 @@ main {
     margin-bottom: 10px;
 }
 
-.left-list {
+.list  {
     display: flex;
     flex-direction: column;
     list-style: none;
     align-items: center;
     justify-content: center;
     gap: 7px;
+}
+
+.right-list {
+    margin-top: 5px;
 }
 
 .recomendations {
@@ -227,3 +230,63 @@ main {
     height: 60px;
 }
 
+.sep-down {
+    margin-top: 20px;
+}
+
+.sep-down_2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 10px 0px 10px 0px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.icon-quote img {
+    width: 50px;
+    margin-bottom: 20px;
+}
+.quote {
+    font-weight: 300;
+    text-align: center;
+    padding: 0px 15px 0px 15px;
+    font-size: 30px;
+    font-family: 'Cookie', cursive;
+}
+
+.only-mobile {
+    display: none;
+}
+
+@media (min-width: 900px) {
+    
+    .only-mobile {
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        background-color: black;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .only-mobile-title {
+        font-size: 30px;
+        color: white;
+        font-family: 'Playfair Display', serif;
+        z-index: 999999;
+    }
+
+    main {
+        display: none;
+    }
+  }
+  
